@@ -1,0 +1,5 @@
+*.apk
+*.ipa
+*.exe
+*.dll
+project.private.config.json

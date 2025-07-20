@@ -1,0 +1,52 @@
+
+.lecture-detail {
+  padding: 20rpx;
+}
+.title {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 16rpx;
+}
+.desc {
+  font-size: 14px;
+  line-height: 1.8;
+  color: #333;
+  white-space: pre-wrap;
+}
+.link {
+  margin-top: 20rpx;
+  color: #00007f;
+}
+.error {
+  color: red;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 100rpx;
+}
+
+/* 骨架屏结构样式 */
+.skeleton {
+  padding: 20rpx;
+}
+.skeleton-title {
+  width: 70%;
+  height: 28rpx;
+  background-color: #eee;
+  border-radius: 6rpx;
+  margin-bottom: 24rpx;
+}
+.skeleton-line {
+  width: 100%;
+  height: 18rpx;
+  background-color: #eee;
+  border-radius: 6rpx;
+  margin-bottom: 16rpx;
+}
+.skeleton-link {
+  width: 40%;
+  height: 24rpx;
+  background-color: #ddd;
+  border-radius: 6rpx;
+  margin-top: 20rpx;
+}
+

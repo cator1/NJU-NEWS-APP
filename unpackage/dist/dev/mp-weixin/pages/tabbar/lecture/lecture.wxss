@@ -1,0 +1,75 @@
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+.tab-bar {
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+.uni-tab-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uni-tab-item-title {
+  font-size: 15px;
+  color: #555;
+  line-height: 40px;
+}
+.uni-tab-item-active .uni-tab-item-title {
+  color: #aa00ff;
+  font-weight: bold;
+  border-bottom: 2px solid #aa00ff;
+}
+.tab-box {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.swiper-item {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  box-sizing: border-box;
+}
+.scroll-list {
+  flex: 1;
+  height: 100%;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 20rpx;
+}
+.list-item-box {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4rpx;
+  color: #333;
+}
+.desc {
+  font-size: 14px;
+  color: #666;
+  white-space: pre-wrap;
+}
+.empty-tip {
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.bottom-spacer {
+  height: 80rpx; /* 占位以避免底部被遮挡 */
+  flex-shrink: 0;
+}

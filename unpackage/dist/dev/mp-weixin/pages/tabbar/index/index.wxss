@@ -1,0 +1,84 @@
+
+.tabs {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+/* 顶部导航栏（非滚动） */
+.tab-bar {
+  height: 42px;
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #ddd;
+  background-color: #f8f8f8;
+}
+.uni-tab-item {
+  flex: 1; /* 平均分布宽度 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uni-tab-item-title {
+  font-size: 15px;
+  color: #555;
+  line-height: 40px;
+}
+.uni-tab-item-active .uni-tab-item-title {
+  color: #aa00ff;
+  font-weight: bold;
+  border-bottom: 2px solid #aa00ff;
+}
+
+/* 内容区域 */
+.tab-box {
+  flex: 1;
+  height: 100%;
+  overflow: hidden; /* 可选，加上更安全 */
+}
+.swiper-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page-item {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.list-item-box {
+  display: flex;
+  flex-direction: column;
+}
+.title {
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 4rpx;
+  color: #333;
+}
+.desc {
+  font-size: 14px;
+  color: #666;
+  white-space: pre-wrap; /* 支持换行 */
+}
+.scroll-list {
+  flex: 1;
+  overflow-y: auto;
+  padding: 20rpx;
+}
+.empty-tip {
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+  margin-top: 40rpx;
+}
+.scroll-list {
+  height: 100%;
+  padding: 16rpx;
+  box-sizing: border-box;
+}
+.swiper-item {
+  height: 100%;
+}

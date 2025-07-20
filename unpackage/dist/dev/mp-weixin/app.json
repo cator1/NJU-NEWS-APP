@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/tabbar/index/index",
+    "pages/tabbar/lecture/lecture",
+    "pages/tabbar/other/other",
+    "pages/tabbar/lecture/lectureDetail",
+    "pages/tabbar/index/indexDetail",
+    "uni_modules/uni-upgrade-center-app/pages/upgrade-popup"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "南 哪 小 报",
+    "navigationBarBackgroundColor": "#816eee",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#816eee",
+    "borderStyle": "white",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/tabbar/index/index",
+        "text": "活动",
+        "iconPath": "/static/activity.png",
+        "selectedIconPath": "/static/activity_cli.png"
+      },
+      {
+        "pagePath": "pages/tabbar/lecture/lecture",
+        "text": "讲座",
+        "iconPath": "/static/lecture.png",
+        "selectedIconPath": "/static/lecture_cli.png"
+      },
+      {
+        "pagePath": "pages/tabbar/other/other",
+        "text": "个人",
+        "iconPath": "/static/setting.png",
+        "selectedIconPath": "/static/setting_cli.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
